@@ -3,6 +3,7 @@ import java .util.Random;
 public class CheckEmployeeAttendance {
 	
 public static void main(String[] args) {
+	
 		Random attendance = new Random();
         int Check_Attendance = attendance.nextInt(2);
         if(Check_Attendance == 1) {
